@@ -1,0 +1,28 @@
+hatuandung@Mango:~/os2020$ ls | grep 'list'
+
+hatuandung@Mango:~/os2020$ wc -l /etc/passwd
+45 /etc/passwd
+
+hatuandung@Mango:~$ free
+        total     used    free    shared  buff/cache  available
+Mem:    8013964   1185456 5525012 165516  1303496     6398776
+Swap:   15999996  0       15999996
+
+hatuandung@Mango:~$ cat /proc/cpuinfo | grep 'core'
+core id		: 0
+cpu cores	: 4
+core id		: 1
+cpu cores	: 4
+core id		: 2
+cpu cores	: 4
+core id		: 3
+cpu cores	: 4
+core id		: 0
+cpu cores	: 4
+core id		: 1
+cpu cores	: 4
+core id		: 2
+cpu cores	: 4
+core id		: 3
+cpu cores	: 4
+

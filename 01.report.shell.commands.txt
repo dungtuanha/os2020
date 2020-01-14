@@ -1,0 +1,61 @@
+hatuandung@Mango:~/os2020$ echo hello world
+hello world
+
+hatuandung@Mango:~/os2020$ passwd
+Changing password for hatuandung.
+Current password: 
+New password: 
+Retype new password: 
+passwd: password updated successfully
+
+hatuandung@Mango:~/os2020$ date
+Thứ ba, 14 Tháng 1 năm 2020 10:31:15 +07
+
+hatuandung@Mango:~/os2020$ hostname
+Mango
+
+hatuandung@Mango:~/os2020$ arch
+x86_64
+
+hatuandung@Mango:~/os2020$ uname -a
+Linux Mango 5.3.0-26-generic #28-Ubuntu SMP Wed Dec 18 05:37:46 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+
+hatuandung@Mango:~/os2020$ dmesg
+[   11.947986] wlp3s0: associated
+[   11.997899] IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0: link becomes ready
+[ 2064.664837] kauditd_printk_skb: 23 callbacks suppressed
+[ 2064.664838] audit: type=1400 audit(1578972547.134:35): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap.sublime-text.subl" pid=10459 comm="apparmor_parser"
+[ 2064.669928] audit: type=1400 audit(1578972547.142:36): apparmor="STATUS" operation="profile_load" profile="unconfined" name="snap-update-ns.sublime-text" pid=10458 comm="apparmor_parser
+
+hatuandung@Mango:~/os2020$ uptime
+ 10:34:37 up 39 min,  1 user,  load average: 0,44, 0,49, 0,54
+
+hatuandung@Mango:~/os2020$ who am i
+
+hatuandung@Mango:~/os2020$ whoami
+hatuandung
+
+hatuandung@Mango:~/os2020$ who
+hatuandung :0           2020-01-14 09:54 (:0)
+
+hatuandung@Mango:~/os2020$ id
+uid=1000(hatuandung) gid=1000(hatuandung) groups=1000(hatuandung),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),119(lpadmin),130(lxd),131(sambashare)
+
+hatuandung@Mango:~/os2020$ last
+hatuandu :0           :0               Tue Jan 14 09:54   still logged in
+reboot   system boot  5.3.0-26-generic Tue Jan 14 09:54   still running
+hatuandu :0           :0               Tue Jan 14 09:26 - crash  (00:28)
+reboot   system boot  5.3.0-26-generic Tue Jan 14 09:26   still running
+hatuandu :0           :0               Tue Jan 14 16:00 - down   (-6:58)
+reboot   system boot  5.3.0-26-generic Tue Jan 14 16:00 - 09:02  (-6:58)
+
+wtmp begins Tue Jan 14 16:00:44 2020
+
+hatuandung@Mango:~/os2020$ finger
+Command 'finger' not found, but can be installed with:
+sudo apt install finger
+
+hatuandung@Mango:~/os2020$ w
+ 10:37:48 up 43 min,  1 user,  load average: 0,35, 0,40, 0,50
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+hatuandu :0       :0               09:54   ?xdm?  14:38   0.00s /usr/lib/gdm3/g
